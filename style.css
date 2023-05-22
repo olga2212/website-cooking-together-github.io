@@ -1,0 +1,91 @@
+body {
+    background-color: #2B2B2B;
+}
+.heading {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    color: #FDFCE5;
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 800; 
+
+
+}
+h3 {
+    color: #5D8233;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.input-field {
+    display: flex;
+}
+#search {
+    flex: 1;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 15px;
+    padding: 10px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.food {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 20px;
+    
+}
+a {
+    color: #FDFCE5;
+    font-family: 'Balsamiq Sans', cursive;
+    text-decoration: none;
+    font-size: 25px;
+}
+a.hover {
+    color: #5D8233;
+}
+img {
+    border: 5px solid #5D8233;
+}
+.Anastaisha{
+            text-align: center;
+            font-size: 12px;
+             text-decoration: none;
+            color: #ffffff;
+          }
+
+.Anas{display:flex; 
+justify-content: center;}
+
+@media all and (max-width:500px) {
+    img{
+width: 200px;
+height: 250px;
+margin-left: 30px;
+}
+h1 {
+    font-size: 25px;
+}
+h3 {
+    font-size: 15px;
+    margin-left: 50px;
+}
+#search {
+    margin-left: 50px;
+}
+a {
+    margin-left: 45px;
+    font-size: 18px;
+}
+}
+@media all and (max-width:800px) {
+    img{
+        width: 300px;
+        height: 350px;
+        margin-left: 30px;
+}
+
+}
